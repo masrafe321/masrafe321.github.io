@@ -1,0 +1,44 @@
+main {
+  height: calc(100vh - 230px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 0;
+  font-style: italic;
+  text-align: center;
+  font-weight: 600;
+  color: black;
+}
+
+main p:nth-child(1) {
+  font-size: 45px;
+  color: #c1ecea;
+}
+
+main p:nth-child(2) {
+  font-size: 20px;
+}
+
+main button {
+  border-radius: 20px;
+  padding: 10px 10px;
+  background: #d9d9d9;
+  border: none;
+  font-weight: 600;
+  color: black;
+  font-style: italic;
+  font-family: "Inter", sans-serif;
+}
+
+footer {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b82c10;
+  background: linear-gradient(90deg, #000000 0%, #750707 100%);
+  font-size: 30px;
+  font-weight: 800;
+}
