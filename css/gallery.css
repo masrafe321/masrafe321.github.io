@@ -1,5 +1,5 @@
 main {
-  height: calc(100vh - 230px);
+  min-height: calc(100vh - 230px);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -61,30 +61,25 @@ main button {
 }
 
 footer {
-  display: flex;
-  justify-content: space-between;
-  column-gap: 50px;
-  padding: 20px 50px;
+  background: linear-gradient(180deg, #000000 0%, #8a1818 100%);
   height: 150px;
-  background: linear-gradient(90deg, #000000 0%, #750707 100%);
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul {
+  display: flex;
   color: white;
-}
-
-footer div {
-  flex: 1;
-}
-
-footer div p {
-  font-weight: 700;
-  font-style: 25px;
-}
-
-footer div ul {
+  justify-content: center;
   list-style-type: none;
-  font-size: 13px;
-  text-decoration: underline;
 }
 
-footer div ul li a {
-  color: white;
+footer ul li {
+  margin: 0 50px;
+}
+
+footer ul li p {
+  text-align: center;
 }
