@@ -37,7 +37,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #b82c10;
+  color: white;
   background: linear-gradient(90deg, #000000 0%, #750707 100%);
   font-size: 30px;
   font-weight: 800;
